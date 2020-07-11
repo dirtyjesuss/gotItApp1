@@ -14,6 +14,8 @@
 		84350BEB24B60B2A00443CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84350BE924B60B2A00443CA5 /* Main.storyboard */; };
 		84350BED24B60B2C00443CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84350BEC24B60B2C00443CA5 /* Assets.xcassets */; };
 		84350BF024B60B2C00443CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84350BEE24B60B2C00443CA5 /* LaunchScreen.storyboard */; };
+		9E5CB87E24B9E2DD009DAB16 /* AddStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5CB87D24B9E2DD009DAB16 /* AddStoryboard.storyboard */; };
+		9E5CB88024B9E303009DAB16 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CB87F24B9E303009DAB16 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		84350BEC24B60B2C00443CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84350BEF24B60B2C00443CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84350BF124B60B2C00443CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5CB87D24B9E2DD009DAB16 /* AddStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		9E5CB87F24B9E303009DAB16 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		0617EA9D24B9CC31000D5FDB /* AddView */ = {
 			isa = PBXGroup;
 			children = (
+				9E5CB87D24B9E2DD009DAB16 /* AddStoryboard.storyboard */,
+				9E5CB87F24B9E303009DAB16 /* AddViewController.swift */,
 			);
 			path = AddView;
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 				84350BF024B60B2C00443CA5 /* LaunchScreen.storyboard in Resources */,
 				84350BED24B60B2C00443CA5 /* Assets.xcassets in Resources */,
 				84350BEB24B60B2A00443CA5 /* Main.storyboard in Resources */,
+				9E5CB87E24B9E2DD009DAB16 /* AddStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +191,7 @@
 			files = (
 				84350BE824B60B2A00443CA5 /* ViewController.swift in Sources */,
 				84350BE424B60B2A00443CA5 /* AppDelegate.swift in Sources */,
+				9E5CB88024B9E303009DAB16 /* AddViewController.swift in Sources */,
 				84350BE624B60B2A00443CA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
