@@ -9,14 +9,17 @@
 import UIKit
 
 class AddViewController: UIViewController {
-
+    @IBOutlet weak var targetTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("hello")
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        targetTextField.borderStyle = UITextField.BorderStyle.roundedRect
+    }
 
     /*
     // MARK: - Navigation
