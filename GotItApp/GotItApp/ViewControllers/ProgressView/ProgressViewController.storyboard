@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5xs-tZ-yP6">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Progress View Controller-->
+        <!--Item-->
         <scene sceneID="fu0-KA-roF">
             <objects>
                 <viewController id="5xs-tZ-yP6" customClass="ProgressViewController" customModule="GotItApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -76,14 +76,34 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBq-oV-Igd">
+                                <rect key="frame" x="348" y="57" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="uas-WI-vXY" kind="presentation" id="GFP-0e-wwQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="CNn-A2-nac"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="LTT-ft-jFx"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mjR-LK-5iB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333.33333333333337" y="83.705357142857139"/>
+            <point key="canvasLocation" x="129" y="113"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="ezr-cy-WEH">
+            <objects>
+                <viewControllerPlaceholder id="uas-WI-vXY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="F3f-tV-YBR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iy4-Sx-gAp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="-129"/>
         </scene>
     </scenes>
 </document>
